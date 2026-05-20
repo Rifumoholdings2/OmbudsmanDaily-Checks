@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Ombudsman" parallel="methods" thread-count="2">
+	<listeners>
+		<listener class-name="com.ombudsman.listeners.TestListner" />
+	</listeners>
+	<test name="E2E">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.ombudsman.test.ui.LandingPageTest" />
+		</classes>
+	</test>
+	<test name="E2E">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.ombudsman.test.ui.LandingPageTest" />
+		</classes>
+	</test>
+</suite>

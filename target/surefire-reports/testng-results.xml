@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-20T21:23:29 SAST" name="Ombudsman" finished-at="2026-05-20T21:24:01 SAST" duration-ms="31954">
+    <groups>
+    </groups>
+    <test started-at="2026-05-20T21:23:29 SAST" name="E2E" finished-at="2026-05-20T21:24:01 SAST" duration-ms="31954">
+      <class name="com.ombudsman.test.ui.LandingPageTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.ombudsman.test.ui.LandingPageTest@5812f68b]" started-at="2026-05-20T21:23:29 SAST" name="loadConfig" finished-at="2026-05-20T21:23:29 SAST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ombudsman.test.ui.LandingPageTest@5812f68b]" started-at="2026-05-20T21:23:29 SAST" name="setup" finished-at="2026-05-20T21:23:33 SAST" duration-ms="4459" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.ombudsman.test.ui.LandingPageTest@5812f68b]" started-at="2026-05-20T21:23:33 SAST" name="setupPages" finished-at="2026-05-20T21:23:33 SAST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method signature="loginTest()[pri:0, instance:com.ombudsman.test.ui.LandingPageTest@5812f68b]" started-at="2026-05-20T21:23:33 SAST" name="loginTest" finished-at="2026-05-20T21:23:49 SAST" duration-ms="15987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ombudsman.test.ui.LandingPageTest@5812f68b]" started-at="2026-05-20T21:23:49 SAST" name="tearDown" finished-at="2026-05-20T21:23:50 SAST" duration-ms="548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ombudsman.test.ui.LandingPageTest@5812f68b]" started-at="2026-05-20T21:23:50 SAST" name="setup" finished-at="2026-05-20T21:23:54 SAST" duration-ms="4051" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.ombudsman.test.ui.LandingPageTest@5812f68b]" started-at="2026-05-20T21:23:54 SAST" name="setupPages" finished-at="2026-05-20T21:23:54 SAST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method signature="registerFormTest()[pri:0, instance:com.ombudsman.test.ui.LandingPageTest@5812f68b]" started-at="2026-05-20T21:23:54 SAST" name="registerFormTest" finished-at="2026-05-20T21:24:00 SAST" duration-ms="5919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFormTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ombudsman.test.ui.LandingPageTest@5812f68b]" started-at="2026-05-20T21:24:00 SAST" name="tearDown" finished-at="2026-05-20T21:24:01 SAST" duration-ms="583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ombudsman.test.ui.LandingPageTest -->
+    </test> <!-- E2E -->
+  </suite> <!-- Ombudsman -->
+</testng-results>
