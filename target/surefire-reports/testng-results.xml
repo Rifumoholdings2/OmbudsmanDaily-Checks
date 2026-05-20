@@ -1,63 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-20T21:23:29 SAST" name="Ombudsman" finished-at="2026-05-20T21:24:01 SAST" duration-ms="31954">
+  <suite started-at="2026-05-20T22:45:57 SAST" name="Ombudsman" finished-at="2026-05-20T22:46:33 SAST" duration-ms="36077">
     <groups>
     </groups>
-    <test started-at="2026-05-20T21:23:29 SAST" name="E2E" finished-at="2026-05-20T21:24:01 SAST" duration-ms="31954">
-      <class name="com.ombudsman.test.ui.LandingPageTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.ombudsman.test.ui.LandingPageTest@5812f68b]" started-at="2026-05-20T21:23:29 SAST" name="loadConfig" finished-at="2026-05-20T21:23:29 SAST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ombudsman.test.ui.LandingPageTest@5812f68b]" started-at="2026-05-20T21:23:29 SAST" name="setup" finished-at="2026-05-20T21:23:33 SAST" duration-ms="4459" status="PASS">
+    <test started-at="2026-05-20T22:45:57 SAST" name="Chrome Tests" finished-at="2026-05-20T22:46:16 SAST" duration-ms="19044">
+      <class name="com.ombudsman.test.ui.RegisterTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ombudsman.test.ui.RegisterTest@4426bff1]" started-at="2026-05-20T22:45:58 SAST" name="setup" finished-at="2026-05-20T22:46:02 SAST" duration-ms="4396" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.ombudsman.test.ui.LandingPageTest@5812f68b]" started-at="2026-05-20T21:23:33 SAST" name="setupPages" finished-at="2026-05-20T21:23:33 SAST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.ombudsman.test.ui.RegisterTest@4426bff1]" started-at="2026-05-20T22:46:02 SAST" name="setupPages" finished-at="2026-05-20T22:46:02 SAST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPages -->
-        <test-method signature="loginTest()[pri:0, instance:com.ombudsman.test.ui.LandingPageTest@5812f68b]" started-at="2026-05-20T21:23:33 SAST" name="loginTest" finished-at="2026-05-20T21:23:49 SAST" duration-ms="15987" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ombudsman.test.ui.LandingPageTest@5812f68b]" started-at="2026-05-20T21:23:49 SAST" name="tearDown" finished-at="2026-05-20T21:23:50 SAST" duration-ms="548" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ombudsman.test.ui.LandingPageTest@5812f68b]" started-at="2026-05-20T21:23:50 SAST" name="setup" finished-at="2026-05-20T21:23:54 SAST" duration-ms="4051" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.ombudsman.test.ui.LandingPageTest@5812f68b]" started-at="2026-05-20T21:23:54 SAST" name="setupPages" finished-at="2026-05-20T21:23:54 SAST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupPages -->
-        <test-method signature="registerFormTest()[pri:0, instance:com.ombudsman.test.ui.LandingPageTest@5812f68b]" started-at="2026-05-20T21:23:54 SAST" name="registerFormTest" finished-at="2026-05-20T21:24:00 SAST" duration-ms="5919" status="PASS">
+        <test-method signature="registerFormTest()[pri:1, instance:com.ombudsman.test.ui.RegisterTest@4426bff1]" started-at="2026-05-20T22:46:02 SAST" name="registerFormTest" finished-at="2026-05-20T22:46:12 SAST" duration-ms="10073" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerFormTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ombudsman.test.ui.LandingPageTest@5812f68b]" started-at="2026-05-20T21:24:00 SAST" name="tearDown" finished-at="2026-05-20T21:24:01 SAST" duration-ms="583" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ombudsman.test.ui.RegisterTest@4426bff1]" started-at="2026-05-20T22:46:12 SAST" name="tearDown" finished-at="2026-05-20T22:46:13 SAST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ombudsman.test.ui.RegisterTest -->
+      <class name="com.ombudsman.test.ui.LandingPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ombudsman.test.ui.LandingPageTest@3a4621bd]" started-at="2026-05-20T22:45:58 SAST" name="setup" finished-at="2026-05-20T22:46:02 SAST" duration-ms="4396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.ombudsman.test.ui.LandingPageTest@3a4621bd]" started-at="2026-05-20T22:46:02 SAST" name="setupPages" finished-at="2026-05-20T22:46:02 SAST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method signature="loginTest()[pri:2, instance:com.ombudsman.test.ui.LandingPageTest@3a4621bd]" started-at="2026-05-20T22:46:02 SAST" name="loginTest" finished-at="2026-05-20T22:46:16 SAST" duration-ms="14130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ombudsman.test.ui.LandingPageTest@3a4621bd]" started-at="2026-05-20T22:46:16 SAST" name="tearDown" finished-at="2026-05-20T22:46:16 SAST" duration-ms="210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.ombudsman.test.ui.LandingPageTest -->
-    </test> <!-- E2E -->
+    </test> <!-- Chrome Tests -->
+    <test started-at="2026-05-20T22:46:17 SAST" name="Firefox Tests" finished-at="2026-05-20T22:46:33 SAST" duration-ms="16607">
+      <class name="com.ombudsman.test.ui.RegisterTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.ombudsman.test.ui.RegisterTest@47f9738]" started-at="2026-05-20T22:45:57 SAST" name="loadConfig" finished-at="2026-05-20T22:45:57 SAST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ombudsman.test.ui.RegisterTest@47f9738]" started-at="2026-05-20T22:46:17 SAST" name="setup" finished-at="2026-05-20T22:46:21 SAST" duration-ms="4536" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerFormTest()[pri:1, instance:com.ombudsman.test.ui.RegisterTest@47f9738]" started-at="2026-05-20T22:46:21 SAST" name="registerFormTest" finished-at="2026-05-20T22:46:28 SAST" duration-ms="7012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFormTest -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.ombudsman.test.ui.RegisterTest@47f9738]" started-at="2026-05-20T22:46:21 SAST" name="setupPages" finished-at="2026-05-20T22:46:21 SAST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ombudsman.test.ui.RegisterTest@47f9738]" started-at="2026-05-20T22:46:28 SAST" name="tearDown" finished-at="2026-05-20T22:46:29 SAST" duration-ms="883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ombudsman.test.ui.RegisterTest -->
+      <class name="com.ombudsman.test.ui.LandingPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ombudsman.test.ui.LandingPageTest@6155d082]" started-at="2026-05-20T22:46:17 SAST" name="setup" finished-at="2026-05-20T22:46:21 SAST" duration-ms="3974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.ombudsman.test.ui.LandingPageTest@6155d082]" started-at="2026-05-20T22:46:21 SAST" name="setupPages" finished-at="2026-05-20T22:46:21 SAST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method signature="loginTest()[pri:2, instance:com.ombudsman.test.ui.LandingPageTest@6155d082]" started-at="2026-05-20T22:46:21 SAST" name="loginTest" finished-at="2026-05-20T22:46:33 SAST" duration-ms="11869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ombudsman.test.ui.LandingPageTest@6155d082]" started-at="2026-05-20T22:46:33 SAST" name="tearDown" finished-at="2026-05-20T22:46:33 SAST" duration-ms="686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ombudsman.test.ui.LandingPageTest -->
+    </test> <!-- Firefox Tests -->
   </suite> <!-- Ombudsman -->
 </testng-results>

@@ -26,34 +26,7 @@ public class LandingPageTest extends BaseClass{
 		homePage = new HomePage(getDriver());
 	}
 	
-	@Test
-	public void registerFormTest() {
-		System.out.println("opening Ombudsman");
-		//ExtentManager.startTest("Login Test"); -- This has been implemented in TestListner Class!
-		ExtentManager.logStep("Navigated to Ombudsman landing page and scroll down to register button");
-		landingPage.scrollToRegisterButton(); 
-		landingPage.register();
-		ExtentManager.logStep("Clicked register button and register page is displayed");
-		Assert.assertTrue(register.isRegisterLabelDisplayed(), " Register tab should be visible after successfull clicking register button");
-		ExtentManager.logStep("Validation successfully!");
-		String labelText = register.getRegisterLabelText();
-		Assert.assertTrue(register.verifyRegisterLabelText(labelText),  " Test Failed invalid error message");
-		ExtentManager.logStepWithScreenshot(getDriver(), "Register form is displayed ", " Expected Message! "+labelText);
-		
-		register.fillInRegisterForm("Simikahle", "Dlomo", "simikahledlomo@gmail.com", "0798585464", "P@ssw0rd1");
-		ExtentManager.logStep("Registration form filled");
-		register.clickRegisterButton();
-		staticWait(3);
-		
-		ExtentManager.logStep("Clicked register button");
-		Assert.assertTrue(register.isErrorMessageDisplayed(), " Error message after clicking register button");
-		ExtentManager.logStep("Validation successfully!");
-		String errorMessage = "Username 'simikahledlomo@gmail.com' is already taken.";
-		Assert.assertTrue(register.verifyErrorMessage(errorMessage),  " Test Failed invalid error message");
-		ExtentManager.logStepWithScreenshot(getDriver(), "Register form is displayed ", " Expected Message! "+errorMessage);		
-	}
-	
-	@Test
+	@Test(priority = 2)
 	public void loginTest() {
 		System.out.println("opening ombudsman login page");
 		ExtentManager.logStep("Navigated to Ombudsman landing page and click login button");
@@ -85,7 +58,5 @@ public class LandingPageTest extends BaseClass{
 		
 		homePage.clickProfileLog();
 		staticWait(3);
-		homePage.clickLogOut();
-		staticWait(5);
 	}
 }
